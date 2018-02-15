@@ -2,8 +2,7 @@
     <string name="app_name">FakePhone</string>
     <string name="delete">esborra</string>
     <string name="call">Truca</string>
-    <string name="longNumber">El telèfon solament pot tenir 10 xifres</string>
     <string name="NoNumberMsg">No has introduit cap digit</string>
     <string name="CallingTo">Trucant al</string>
-    <string name="TooLongNumber">El telèfon solament pot tenir 11 xifres</string>
+    <string name="TooLongNumber">El telèfon solament pot tenir 10 xifres</string>
 </resources>
