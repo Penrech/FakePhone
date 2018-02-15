@@ -143,6 +143,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
+        android:onClick="callClick"
         android:text="@string/call" />
 
 </RelativeLayout>
