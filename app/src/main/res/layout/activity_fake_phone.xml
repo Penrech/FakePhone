@@ -25,6 +25,7 @@
         android:layout_below="@+id/numberText"
         android:padding="10dp"
         android:text="1"
+        android:onClick="BtnPress"
         android:textSize="32sp" />
 
     <Button
@@ -35,6 +36,7 @@
         android:layout_toEndOf="@+id/btn1"
         android:layout_toRightOf="@+id/btn1"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="2"
         android:textSize="32sp" />
 
@@ -46,6 +48,7 @@
         android:layout_toEndOf="@+id/btn2"
         android:layout_toRightOf="@+id/btn2"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="3"
         android:textSize="32sp" />
 
@@ -57,6 +60,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn1"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="4"
         android:textSize="32sp" />
 
@@ -68,6 +72,7 @@
         android:layout_toEndOf="@+id/btn4"
         android:layout_toRightOf="@+id/btn4"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="5"
         android:textSize="32sp" />
 
@@ -79,6 +84,7 @@
         android:layout_toEndOf="@+id/btn5"
         android:layout_toRightOf="@+id/btn5"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="6"
         android:textSize="32sp" />
 
@@ -90,6 +96,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn4"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="7"
         android:textSize="32sp" />
 
@@ -101,6 +108,7 @@
         android:layout_toEndOf="@+id/btn7"
         android:layout_toRightOf="@+id/btn7"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="8"
         android:textSize="32sp" />
 
@@ -112,6 +120,7 @@
         android:layout_toEndOf="@+id/btn8"
         android:layout_toRightOf="@+id/btn8"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="9"
         android:textSize="32sp" />
 
@@ -123,6 +132,7 @@
         android:layout_toEndOf="@+id/btn7"
         android:layout_toRightOf="@+id/btn7"
         android:padding="10dp"
+        android:onClick="BtnPress"
         android:text="0"
         android:textSize="32sp" />
 
