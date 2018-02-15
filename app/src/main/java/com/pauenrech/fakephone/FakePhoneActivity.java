@@ -28,4 +28,9 @@ public class FakePhoneActivity extends AppCompatActivity {
         });
 
     }
+
+
+    public void delClick(View view) {
+        phoneText.setText("");
+    }
 }
