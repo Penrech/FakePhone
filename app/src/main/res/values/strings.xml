@@ -3,6 +3,6 @@
     <string name="delete">esborra</string>
     <string name="call">Truca</string>
     <string name="NoNumberMsg">No has introduit cap digit</string>
-    <string name="CallingTo">Trucant al </string>
     <string name="TooLongNumber">El telèfon solament pot tenir 10 xifres</string>
+    <string name="callingTo">Trucant al %1$s</string>
 </resources>

@@ -24,7 +24,7 @@ public class FakePhoneActivity extends AppCompatActivity {
 
     public void BtnPress(View view) {
         if (phoneText.length() < 10) {
-            Button numPress = findViewById(view.getId());
+            Button numPress = (Button) view;
             phoneText.append(numPress.getText());
         } else {
             Toast.makeText(this, R.string.TooLongNumber, Toast.LENGTH_SHORT).show();
@@ -43,7 +43,7 @@ public class FakePhoneActivity extends AppCompatActivity {
         if (numberToCall.isEmpty()) {
             msg = getString(R.string.NoNumberMsg);
         } else {
-            msg = getString(R.string.CallingTo) + numberToCall;
+            msg = String.format(getString(R.string.callingTo),numberToCall);
         }
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
